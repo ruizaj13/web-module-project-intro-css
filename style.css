@@ -19,12 +19,44 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+*{
+    box-sizing:border-box;
+}
+
 html {
     background-color: white;
+    
 }
+
+.headnav, .footnav, button {
+    text-align: center;
+    margin: 2%;
+    font-size: 120%;
+    border-style: none;
+    padding: 6%;   
+    
+}
+
+#headplan, #footplan {
+    background-color: #FF764E;
+    
+}
+
+#headlearn, #footlearn {
+    background-color: #5ED3EB;
+}
+
+#headget, #footget {
+    background-color: #FFCD69;
+}
+
+
 
 #headimg {
     border-radius: 50%;
-    display: inline-block;
+    width: 20%;
+    max-width: 100%;
+    height: auto;
+      
 }
     
