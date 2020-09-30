@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -17,10 +17,15 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-}
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
 *{
-    box-sizing:border-box;
+    
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
 }
 
 html {
@@ -29,11 +34,15 @@ html {
 }
 
 .headnav, .footnav, button {
+    
     text-align: center;
-    margin: 2%;
-    font-size: 120%;
+    margin: 2% 6%;
+    font-size: 110%;
     border-style: none;
-    padding: 6%;   
+    padding: .8% 2%;  
+    border-radius: 15px; 
+    color: white;
+   
     
 }
 
@@ -53,10 +62,21 @@ html {
 
 
 #headimg {
+    margin-left: 10%;
     border-radius: 50%;
     width: 20%;
     max-width: 100%;
     height: auto;
-      
+          
+}
+
+h1 {
+    position: relative;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 300%;
+    display: inline-block;
+    margin-left: 5%;
+    top: -199px;
+    
 }
     
