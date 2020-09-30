@@ -20,7 +20,7 @@ time, mark, audio, video {
 }  DID THIS BECAUSE FONT WOULDN'T WORK PROPERLY OTHERWISE*/
 
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;700&display=swap');
 
 *{
     
@@ -103,4 +103,34 @@ h2 {
     padding: .1%;
     
 }
+
+#fire {
+    display: block;
+    margin: auto;
+    width: 10%;
+    height: auto;
+    padding-top: 2%;
+}
+
+#firedesc {
+    text-align: center;
+   }
+
+#rv {
+    display: block;
+    margin: auto;
+    width: 10%;
+    height: auto;
+    padding-top: 2%;
+}
+
+#rvdesc {
+    text-align: center;
+        
+}
+
+span {
+    font-weight: bold;
+}
     
+
