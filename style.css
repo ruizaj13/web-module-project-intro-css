@@ -17,7 +17,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-} */
+}  DID THIS BECAUSE FONT WOULDN'T WORK PROPERLY OTHERWISE*/
 
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
@@ -36,12 +36,13 @@ html {
 .headnav, .footnav, button {
     
     text-align: center;
-    margin: 2% 6%;
+    margin: 2% 8%;
     font-size: 110%;
     border-style: none;
     padding: .8% 2%;  
     border-radius: 15px; 
     color: white;
+    font-weight: bold;
    
     
 }
@@ -62,7 +63,7 @@ html {
 
 
 #headimg {
-    margin-left: 10%;
+    margin-left: 15%;
     border-radius: 50%;
     width: 20%;
     max-width: 100%;
@@ -73,10 +74,33 @@ html {
 h1 {
     position: relative;
     font-family: 'Chelsea Market', cursive;
-    font-size: 300%;
+    font-size: 365%;
     display: inline-block;
-    margin-left: 5%;
+    margin-left: 4%;
     top: -199px;
+    
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    margin-left: 23%;
+    font-size: 130%;
+    top: -250px;
+    font-weight: bold;
+    
+}
+
+.desc {
+    text-align: center;
+    font-weight: bold;
+    font-size: 130%;
+    background-color: #DDB9A3;
+    color: white;
+    margin-top: -11%;
+    margin-left: 11%;
+    margin-right: 11%;
+    padding: .1%;
     
 }
     
