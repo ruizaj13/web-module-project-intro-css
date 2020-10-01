@@ -1,4 +1,7 @@
-/* html, body, div, span, applet, object, iframe,
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -17,19 +20,12 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-}  DID THIS BECAUSE FONT WOULDN'T WORK PROPERLY OTHERWISE*/
-
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;700&display=swap');
-
-*{
-    
-    font-family: 'Roboto Mono', monospace;
-    box-sizing: border-box;
 }
+
 
 html {
     background-color: white;
+    font-family: 'Roboto Mono', monospace;
     
 }
 
@@ -43,6 +39,7 @@ html {
     border-radius: 15px; 
     color: white;
     font-weight: bold;
+    outline: none;
    
     
 }
@@ -66,7 +63,6 @@ html {
     margin-left: 15%;
     border-radius: 50%;
     width: 20%;
-    max-width: 100%;
     height: auto;
           
 }
@@ -82,25 +78,24 @@ h1 {
 }
 
 h2 {
+    font-family: 'Roboto Mono', monospace;
     text-align: center;
     position: relative;
     margin-left: 23%;
     font-size: 130%;
-    top: -250px;
-    font-weight: bold;
-    
+    top: -200px;
+      
 }
 
 .desc {
     text-align: center;
-    font-weight: bold;
     font-size: 130%;
     background-color: #DDB9A3;
     color: white;
-    margin-top: -11%;
+    margin-top: -5%;
     margin-left: 11%;
     margin-right: 11%;
-    padding: .1%;
+    padding: 1%;
     
 }
 
@@ -110,6 +105,7 @@ h2 {
     width: 10%;
     height: auto;
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #firedesc {
@@ -122,6 +118,7 @@ h2 {
     width: 10%;
     height: auto;
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #rvdesc {
@@ -131,6 +128,30 @@ h2 {
 
 span {
     font-weight: bold;
+}
+
+#footimg {
+    text-align: center;
+    height:380px;
+    width: auto;
+    overflow: hidden;
+    margin-left: .5%;
+    margin-right: .5%;
+    
+}
+
+#footimg img {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.footer {
+    background-color: #F9E7DC;
+    padding: 1%;
+    margin-left: .5%;
+    margin-right: .5%;
+   
+    
 }
     
 
